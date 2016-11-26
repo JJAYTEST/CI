@@ -1,0 +1,23 @@
+{
+  "name": "ci",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/soravichn/ci",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sb-admin-2": "*",
+    "bootstrap": "^3.3.7",
+    "animate.css": "^3.5.2",
+    "font-awesome": "fontawesome#^4.7.0"
+  },
+  "authors": [
+    "Ahtthapon <Ahtthapon@live.com>"
+  ]
+}
