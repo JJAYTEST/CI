@@ -1,0 +1,81 @@
+﻿phpstorm ของพี่ดิต
+--------------------
+http://placehold.it/520x480
+
+
+npm install -g bower
+bower install bootstrap
+
+rm -rf .git (คือการลบออกไปเลย)
+เสร็จแล้ว git init
+คือ Shift+del
+
+---------------------------------
+Day2-p1 ติดตั้ง github
+
+git --version เชคเวอร์ชั้น
+git init ใช้งาน github
+
+bower install fontawesome
+bower uninstall fontawesome
+
+bower install bootstrap --save
+bower install fontawesome --save
+touch .gitignore
+
+
+http://fontawesome.io/ เว็บเลือก icon
+
+bower install --save animate.css
+
+---------------------------------------
+MySQL
+
+SELECT เรียนขึ้นมา
+INSERT เอาข้อมูลลงในฐานข้อมล
+UPDATE แก้ไขข้อมลในฐานข้อมูล
+DELETE ลบข้อมลในฐานข้อมูล
+
+SELECT * FROM position
+
+----------------------------------------
+26/11/59
+---- SQL -----
+
+SELECT employees.fullname, employees.age, positions.name FROM employees 
+INNER JOIN positions ON employees.position_id = positions.id
+(Join ตาราง SQL)
+(INSERT ต้องค่กับ INTO)
+
+INSERT INTO employees (position_id, fullname, age, id_card, phone, email, salary)
+VALUES (7,'อรรถพล สังข์เขป',25,'15045678910123','0812345678','EZ NOOB@patu u nai tale.com','999,999');
+
+
+----------------------------
+
+INSERT INTO positions (id,name) VALUES (8, เด็กฝึกงาน);
+
+UPDATE employees SET position_id = 8 WHERE employees.position_id = 6
+
+UPDATE employees SET salary =(salary +2000)
+
+UPDATE employees SET age = (age + 1)
+
+UPDATE employees SET salary = (salary - 2000) 
+WHERE position_id = 8
+
+UPDATE employees SET salary = (salary + 20000)
+WHERE (salary BETWEEN 15000 AND 25000)
+
+DELETE  FROM employees  WHERE id = 17
+
+-------------------------------------------------
+----- CodeIgniter -----
+
+MVC = Model, View, Controller
+Model = จัดการกับฐานข้อมูล
+View = หน้าเว็บไซต์
+Controller = กระบวนการทำงานต่างๆ
+
+----------------------------------------------------
+bower install --save sb-admin-2
