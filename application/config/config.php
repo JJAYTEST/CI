@@ -42,7 +42,7 @@ $config['cache_path'] = '';
 
 $config['cache_query_string'] = FALSE;
 
-$config['encryption_key'] = 'wlhdivdvulko';
+$config['encryption_key'] = ']^d=bhox]k';
 
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
